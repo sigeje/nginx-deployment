@@ -1,0 +1,12 @@
+namespace:
+  name: staging
+
+replicaCount: 1
+image:
+  tag: 1.18.0
+resources:
+  requests:
+    memory: "128Mi"
+
+configmap:
+  nginx-version: "version: 1.18.0"

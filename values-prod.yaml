@@ -1,0 +1,12 @@
+namespace:
+  name: prod
+
+replicaCount: 2
+image:
+  tag: 1.17.0
+resources:
+  requests:
+    cpu: "70m"
+
+configmap:
+  nginx-version: "version: 1.17.0"
