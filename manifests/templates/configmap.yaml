@@ -3,6 +3,5 @@ data:
   version: alpine
 kind: ConfigMap
 metadata:
-  name: nginx-version
-  version: {{ .Values.configmap.version }}
+  name: {{ .Values.configmap.version }}
   namespace: {{ .Values.namespace.name }}
