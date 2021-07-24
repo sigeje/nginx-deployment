@@ -16,4 +16,4 @@ service:
   port: 8111
 
 configmap:
-  nginx-version: "version: alpine"
+  name: "version: alpine"

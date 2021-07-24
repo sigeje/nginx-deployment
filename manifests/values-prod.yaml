@@ -9,4 +9,4 @@ resources:
     cpu: "70m"
 
 configmap:
-  nginx-version: "version: 1.17.0"
+  name: "version: 1.17.0"

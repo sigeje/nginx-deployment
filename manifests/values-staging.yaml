@@ -9,4 +9,4 @@ resources:
     memory: "128Mi"
 
 configmap:
-  nginx-version: "version: 1.18.0"
+  name: "version: 1.18.0"
