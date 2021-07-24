@@ -16,4 +16,4 @@ service:
   port: 8111
 
 configmap:
-  name: "version: alpine"
+  version: "alpine"

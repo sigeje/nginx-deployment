@@ -9,4 +9,4 @@ resources:
     cpu: "70m"
 
 configmap:
-  name: "version: 1.17.0"
+  version: "1.17.0"
